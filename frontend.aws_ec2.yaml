@@ -11,3 +11,7 @@ filters:
 # this selects only running instances with tag 'frontend'
 tag:Name: frontend
 instance-state-name: running
+
+keyed_groups:
+ - key: ec2_tags.Name
+   separator: ''
